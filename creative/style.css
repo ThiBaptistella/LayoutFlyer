@@ -1,0 +1,97 @@
+/*
+     Author: Thiago Baptistella
+     Date: 30/11/2017
+     Version: 1.0.0
+     Obs: Convert the following creative into a HTML+CSS page: Overlay Creatives
+*/
+
+body {
+  background-image: url(flowers.png);
+  background-repeat: no-repeat, repeat;
+  background-position-x: center;
+  background-position-y: 78px;
+}
+
+img {
+    position: absolute;
+    left: 30%;
+    top: 57%;
+}
+
+.container {
+  min-height: 452px;
+  width: 553px;
+  text-align: center;
+  background-color: #fffd99;
+  margin-top: 40px;
+  margin-left: 30%;
+  border-radius: 16px;
+  border-left: 6px solid #E57428;
+  border-right: 6px solid #E57428;
+  border-bottom: 6px solid #E57428;
+}
+
+.close{
+  color: #8a77be;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 400;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: -27px;
+}
+
+p {
+  color: #8a77be;
+  font-size: 22px;
+  padding-top: 40px;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  font-weight: 100;
+}
+
+h1 {
+  color: #be85d6;
+  font-size: 55px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 2px 2px #39334c;
+  word-wrap: break-word;
+  margin: 0px 30px 0px 30px;
+}
+
+h2 {
+  color: #7a4d8e;
+  font-size: 24px;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  font-weight: 500;
+}
+
+input {
+  width: 250px;
+  height: 50px;
+  border: 0px;
+}
+
+input::placeholder {
+  padding: 20px;
+  color: #54adcb;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+button {
+  width: 150px;
+  height: 51px;
+  border: 0px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #54adcb;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: -4px;
+  border-radius: 0px;
+}
